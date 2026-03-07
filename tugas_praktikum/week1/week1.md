@@ -28,28 +28,24 @@ Melalui metode ini, terlihat bagaimana protokol seperti **HTTP, TCP, dan IP** sa
 - Untuk menghasilkan trafik jaringan, browser digunakan untuk membuka halaman: 'https://gaia.cs.umass.edu/wireshark-labs/INTRO-wireshark-file1.html'
 - Saat halaman diakses, browser mengirim permintaan **HTTP** ke server, dan server mengirim balasan.  
 - Semua proses ini ditangkap oleh Wireshark.
-![Melakukan test pada link](../assets/week1
-/step4.png)
+![Melakukan test pada link](../assets/week1/step4.png)
 
 ### 5. Menghentikan capture
 - Setelah halaman berhasil dimuat, proses capture dihentikan.  
 - Wireshark menampilkan daftar semua paket yang sudah direkam.
-![Stop capture](../assets/week1
-/step5.png)
+![Stop capture](../assets/week1/step5.png)
 
 ### 6. Melakukan filter paket
 - Banyak paket muncul karena berbagai proses jaringan berjalan bersamaan.  
 - Agar fokus pada HTTP, digunakan filter: 'http'
 - Setelah filter diterapkan, hanya paket HTTP yang ditampilkan.
-![Filter paket](../assets/week1
-/step6.png)
+![Filter paket](../assets/week1/step6.png)
 
 ### 7. Menganalisis paket HTTP
 - Setelah filter diterapkan, terlihat dua paket utama.  
 - Paket pertama adalah permintaan dari komputer ke server: 'Source: 192.168.1.7 Destination: 128.119.245.12 Info: GET /wireshark-labs/INTRO-wireshark-file1.html HTTP/1.'
 - Ini menunjukkan browser mengirim permintaan **HTTP GET** untuk mengambil halaman web dari server `gaia.cs.umass.edu`.
-![Analisis paket](../assets/week1
-/step7.png)
+![Analisis paket](../assets/week1/step7.png)
 
 ---
 
