@@ -12,33 +12,41 @@ Melalui metode ini, terlihat bagaimana protokol seperti **HTTP, TCP, dan IP** sa
 ### 1. Menjalankan aplikasi Wireshark
 - Membuka browser web dan aplikasi Wireshark.  
 - Pada tahap ini Wireshark belum menangkap paket jaringan.
+![Menjalankan wireshark](tugas_praktikum/assets/week1/Screenshot 2026-03-05 103304.png)
+
 
 ### 2. Memilih interface jaringan
 - Pada menu **Capture**, pilih interface jaringan yang aktif (contoh: WiFi atau Ethernet).  
 - Interface ini menjadi jalur lalu lintas data sehingga semua paket yang lewat bisa ditangkap.
+![Memilih interface](tugas_praktikum/assets/week1/Screenshot 2026-03-05 103418.png)
 
 ### 3. Memulai proses capture
 - Setelah interface dipilih, proses capture dimulai.  
 - Wireshark mulai merekam semua paket yang dikirim dan diterima komputer.
+![Memulai capture](tugas_praktikum/assets/week1/Screenshot 2026-03-05 103525.png)
 
 ### 4. Membuat aktivitas jaringan
 - Untuk menghasilkan trafik jaringan, browser digunakan untuk membuka halaman: 'https://gaia.cs.umass.edu/wireshark-labs/INTRO-wireshark-file1.html'
 - Saat halaman diakses, browser mengirim permintaan **HTTP** ke server, dan server mengirim balasan.  
 - Semua proses ini ditangkap oleh Wireshark.
+![Melakukan test pada link](tugas_praktikum/assets/week1/Screenshot 2026-03-05 103810.png)
 
 ### 5. Menghentikan capture
 - Setelah halaman berhasil dimuat, proses capture dihentikan.  
 - Wireshark menampilkan daftar semua paket yang sudah direkam.
+![Stop capture](tugas_praktikum/assets/week1/Screenshot 2026-03-05 103931.png)
 
 ### 6. Melakukan filter paket
 - Banyak paket muncul karena berbagai proses jaringan berjalan bersamaan.  
 - Agar fokus pada HTTP, digunakan filter: 'http'
 - Setelah filter diterapkan, hanya paket HTTP yang ditampilkan.
+![Menjalankan wireshark](tugas_praktikum/assets/week1/Screenshot 2026-03-05 104452.png)
 
 ### 7. Menganalisis paket HTTP
 - Setelah filter diterapkan, terlihat dua paket utama.  
 - Paket pertama adalah permintaan dari komputer ke server: 'Source: 192.168.1.7 Destination: 128.119.245.12 Info: GET /wireshark-labs/INTRO-wireshark-file1.html HTTP/1.'
 - Ini menunjukkan browser mengirim permintaan **HTTP GET** untuk mengambil halaman web dari server `gaia.cs.umass.edu`.
+![Analisis paket](tugas_praktikum/assets/week1/Screenshot 2026-03-05 104515.png)
 
 ---
 
