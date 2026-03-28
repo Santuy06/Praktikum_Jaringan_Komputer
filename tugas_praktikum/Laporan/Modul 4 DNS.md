@@ -158,17 +158,20 @@
 
 ---
 
-## Jawaban
 1. **Alamat IP tujuan request:**  
    - Tujuan: `bitsy.mit.edu → 18.0.72.3`  
    - Bukan default server DNS lokal  
 
 2. **Jenis query:**  
    - Type: `A`  
-   - Request tidak mendapat jawaban (*answers* kosong)  
+   - Request **mengandung jawaban (answers)**  
 
 3. **Isi balasan DNS:**  
-   - Tidak ada jawaban sama sekali, karena *timeout*  
+   - Alamat IP untuk `www.aiit.or.kr`:  
+     - `2606:4700:3031::ac43:9878`  
+     - `2606:4700:3036::6815:4a08`  
+     - `172.67.152.120`  
+     - `104.21.74.8` 
 
 ---
 
