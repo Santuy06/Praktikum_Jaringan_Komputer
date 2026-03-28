@@ -173,4 +173,4 @@
 ---
 
 ## Bukti
-- **Response:** ![DNS Response](../assets/week3/4.4.ns.png)  
+- **Response:** ![DNS Response](../assets/week3/www.aiit.or.kr.png)  
