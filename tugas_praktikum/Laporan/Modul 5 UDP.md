@@ -26,5 +26,5 @@
 ---
 
 ## Bukti
-- **Request:** ![UDP Request](../assets/week4/request.png.png)  
-- **Response:** ![UDP Response](../assets/week4/respond.png.png)  
+- **Request:** ![UDP Request](../assets/week4/request.png)  
+- **Response:** ![UDP Response](../assets/week4/respond.png)  
