@@ -1,9 +1,11 @@
 # 4.2 Nslookup
 
+## Bagian A – Soal 1–3
+
 ## Soal
-1. Jalankan nslookup untuk mendapatkan alamat IP dari server web di Asia. Berapa alamat IP server tersebut?  
-2. Jalankan nslookup agar dapat mengetahui server DNS otoritatif untuk universitas di Eropa.  
-3. Jalankan nslookup untuk mencari tahu informasi mengenai server email dari Yahoo! Mail melalui salah satu server yang didapatkan di pertanyaan nomor 2. Apa alamat IP-nya?  
+1. Jalankan nslookup untuk mendapatkan alamat IP dari server web di Asia. Berapa alamat IP server tersebut? 
+2. Jalankan nslookup agar dapat mengetahui server DNS otoritatif untuk universitas di Eropa. 
+3. Jalankan nslookup untuk mencari tahu informasi mengenai server email dari Yahoo! Mail melalui salah satu server yang didapatkan di pertanyaan nomor 2. Apa alamat IP-nya? 
 
 ---
 
@@ -29,18 +31,16 @@
 - **No 2:** ![HTTP GET](../assets/week3/4.2.2.png)  
 - **No 3:** ![HTTP GET](../assets/week3/4.2.3.png)  
 
-# 4.4 Analisis DNS
-
-## Bagian A – Soal 1–7
+## Bagian B – Soal 1–7
 
 ## Soal
-1. Cari pesan permintaan DNS dan balasannya. Apakah pesan tersebut dikirimkan melalui UDP atau TCP?  
-2. Apa port tujuan pada pesan permintaan DNS? Apa port sumber pada pesan balasannya?  
-3. Pada pesan permintaan DNS, apa alamat IP tujuannya? Apa alamat IP server DNS lokal Anda (gunakan ipconfig untuk mencari tahu)? Apakah kedua alamat IP tersebut sama?  
-4. Periksa pesan permintaan DNS. Apa “jenis” atau ”type” dari pesan tersebut? Apakah pesan permintaan tersebut mengandung ”jawaban” atau ”answers”?  
-5. Periksa pesan balasan DNS. Berapa banyak ”jawaban” atau ”answers” yang terdapat di dalamnya? Apa saja isi yang terkandung dalam setiap jawaban tersebut?  
-6. Perhatikan paket TCP SYN yang selanjutnya dikirimkan oleh host Anda. Apakah alamat IP pada paket tersebut sesuai dengan alamat IP yang tertera pada pesan balasan DNS?  
-7. Halaman web yang sebelumnya Anda akses (http://www.ietf.org) memuat beberapa gambar. Apakah host Anda perlu mengirimkan pesan permintaan DNS baru setiap kali ingin mengakses suatu gambar?  
+1. Cari pesan permintaan DNS dan balasannya. Apakah pesan tersebut dikirimkan melalui UDP atau TCP? 
+2. Apa port tujuan pada pesan permintaan DNS? Apa port sumber pada pesan balasannya? 
+3. Pada pesan permintaan DNS, apa alamat IP tujuannya? Apa alamat IP server DNS lokal anda (gunakan ipconfig untuk mencari tahu)? Apakah kedua alamat IP tersebut sama? 
+4. Periksa pesan permintaan DNS. Apa “jenis” atau ”type” dari pesan tersebut? Apakah pesan permintaan tersebut mengandung ”jawaban” atau ”answers”? 
+5. Periksa pesan balasan DNS. Berapa banyak ”jawaban” atau ”answers” yang terdapat di dalamnya? Apa saja isi yang terkandung dalam setiap jawaban tersebut? 
+6. Perhatikan paket TCP SYN yang selanjutnya dikirimkan oleh host Anda. Apakah alamat IP pada paket tersebut sesuai dengan alamat IP yang tertera pada pesan balasan DNS? 
+7. Halaman web yang sebelumnya anda akses (http://www.ietf.org) memuat beberapa gambar. Apakah host Anda perlu mengirimkan pesan permintaan DNS baru setiap kali ingin mengakses suatu gambar? 
 
 ---
 
@@ -68,14 +68,14 @@
 - **TCP SYN:** ![TCP SYN](../assets/week3/4.4.TCPSYN.png)  
 
 
-## Bagian B – Soal 1–5
+## Bagian C – Soal 1–5
 
 ## Soal
-1. Apa port tujuan pada pesan permintaan DNS? Apa port sumber pada pesan balasan DNS?  
-2. Ke alamat IP manakah pesan permintaan DNS dikirimkan? Apakah alamat IP tersebut merupakan default alamat IP server DNS lokal Anda?  
-3. Periksa pesan permintaan DNS. Apa ”jenis” atau ”type” dari pesan tersebut? Apakah pesan tersebut mengandung ”jawaban” atau ”answers”?  
-4. Periksa pesan balasan DNS. Berapa banyak ”jawaban” atau “answers” yang terdapat di dalamnya? Apa saja isi yang terkandung dalam setiap jawaban tersebut?  
-5. Sertakan hasil tangkapan layar.  
+1. Apa port tujuan pada pesan permintaan DNS? Apa port sumber pada pesan balasan DNS? 
+2. Ke alamat IP manakah pesan permintaan DNS dikirimkan? Apakah alamat IP tersebut merupakan default alamat IP server DNS lokal Anda? 
+3. Periksa pesan permintaan DNS. Apa ”jenis” atau ”type” dari pesan tersebut? Apakah pesan tersebut mengandung ”jawaban” atau ”answers”? 
+4. Periksa pesan balasan DNS. Berapa banyak ”jawaban” atau “answers” yang terdapat di dalamnya. Apa saja isi yang terkandung dalam setiap jawaban tersebut? 
+5. Sertakan hasil tangkapan layar. 
 
 ---
 
@@ -102,15 +102,15 @@
 - **Request:** ![DNS Request](../assets/week3/4.4.2request.png)  
 - **Response:** ![DNS Response](../assets/week3/4.4.2respond.png)  
 
-## Bagian C – Soal 1–4
+## Bagian D – Soal 1–4
 
 # 4.4 Analisis DNS – Bagian C (Soal 1–3)
 
 ## Soal
-1. Ke alamat IP manakah pesan permintaan DNS dikirimkan? Apakah alamat IP tersebut merupakan default alamat IP server DNS lokal Anda?  
-2. Periksa pesan permintaan DNS. Apa ”jenis” atau ”type” dari pesan tersebut? Apakah pesan tersebut mengandung ”jawaban” atau ”answers”?  
-3. Periksa pesan balasan DNS. Apa nama server MIT yang diberikan oleh pesan balasan? Apakah pesan balasan ini juga memberikan alamat IP untuk server MIT tersebut?  
-4. Sertakan hasil tangkapan layar.
+1. Ke alamat IP manakah pesan permintaan DNS dikirimkan? Apakah alamat IP tersebut merupakan default alamat IP server DNS lokal Anda? 
+2. Periksa pesan permintaan DNS. Apa ”jenis” atau ”type” dari pesan tersebut? Apakah pesan tersebut mengandung ”jawaban” atau ”answers”? 
+3. Periksa pesan balasan DNS. Apa nama server MIT yang diberikan oleh pesan balasan? Apakah pesan balasan ini juga memberikan alamat IP untuk server MIT tersebut? 
+4. Sertakan hasil tangkapan layar. 
 
 ---
 
@@ -148,13 +148,13 @@
 ## Bukti
 - **Response:** ![DNS Response](../assets/week3/ns.png)  
 
-## Bagian D – Soal 1–4
+## Bagian E – Soal 1–4
 
 ## Soal
-1. Ke alamat IP manakah pesan permintaan DNS dikirimkan? Apakah alamat IP tersebut merupakan default alamat IP server DNS lokal Anda?  
-2. Periksa pesan permintaan DNS. Apa ”jenis” atau ”type” dari pesan tersebut? Apakah pesan tersebut mengandung ”jawaban” atau ”answers”?  
-3. Periksa pesan balasan DNS. Berapa banyak ”jawaban” atau “answers” yang terdapat di dalamnya? Apa saja isi yang terkandung dalam setiap jawaban tersebut?  
-4. Sertakan hasil tangkapan layar.  
+1. Ke alamat IP manakah pesan permintaan DNS dikirimkan? Apakah alamat IP tersebutmerupakan default alamat IP server DNS lokal Anda? 
+2. Periksa pesan permintaan DNS. Apa ”jenis” atau ”type” dari pesan tersebut? Apakah pesan tersebut mengandung ”jawaban” atau ”answers”? 
+3. Periksa pesan balasan DNS. Berapa banyak ”jawaban” atau “answers” yang terdapat di dalamnya. Apa saja isi yang terkandung dalam setiap jawaban tersebut? 
+4. Sertakan hasil tangkapan layar.
 
 ---
 
