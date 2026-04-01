@@ -1,0 +1,27 @@
+# TCP Analysis Using Wireshark
+
+## Bagian A – Soal 1–3
+
+## Soal
+1. Berapa alamat IP dan nomor port TCP yang digunakan oleh komputer klien (sumber) untuk mentransfer file ke gaia.cs.umass.edu? Cara paling mudah menjawab pertanyaan ini adalah dengan memilih sebuah pesan HTTP dan meneliti detail paket TCP yang digunakan untuk membawa pesan HTTP tersebut.
+2. Apa alamat IP dari gaia.cs.umass.edu? Pada nomor port berapa ia mengirim dan menerima segmen TCP untuk koneksi ini?
+3. Berapa alamat IP dan nomor port TCP yang digunakan oleh komputer klien Anda (sumber) untuk mentransfer ke gaia.cs.umass.edu?
+
+---
+
+## Jawaban
+1. IP Klien: 192.168.1.102  
+   Port TCP Klien: 1161  
+
+2. IP Server: 128.119.245.12  
+   Port TCP Server: 80  
+
+3. IP Klien: 192.168.1.102  
+   Port TCP Klien: 1161  
+
+---
+
+## Bukti
+- **POST:** ![UDP Request](../assets/week5/6.3.png.png)  
+
+## Bagian B – Soal 1–9

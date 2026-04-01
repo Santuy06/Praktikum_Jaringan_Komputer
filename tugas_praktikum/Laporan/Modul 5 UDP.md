@@ -27,4 +27,8 @@
 
 ## Bukti
 - **Request:** ![UDP Request](../assets/week4/request.png)  
+<<<<<<< HEAD
 - **Response:** ![UDP Response](../assets/week4/respond.png)  
+=======
+- **Response:** ![UDP Response](../assets/week4/respond.png)  
+>>>>>>> 7ba0d2e (malas cuy)
