@@ -22,7 +22,7 @@
 ---
 
 ## Bukti
-- **POST:** ![UDP Request](../assets/week5/6.3.png)  
+- **POST:** ![POST Request Frame](../assets/week5/6.3.png)  
 
 ## Bagian B – Soal 1–9
 
@@ -130,11 +130,11 @@
 ---
 
 ## Bukti
-- **POST:** ![UDP Request](../assets/week5/6.4POST.png)  
-- **SYN:** ![UDP Request](../assets/week5/6.4SYN.png)
-- **SYNACK:** ![UDP Request](../assets/week5/6.4SYNACK.png)
-- **TCP:** ![UDP Request](../assets/week5/6.4TCP.png)
-- **POST:** ![UDP Request](../assets/week5/6.4Relative.png)
+- **POST:** ![POST Request Frame](../assets/week5/6.4POST.png)  
+- **SYN:** ![SYN Frame](../assets/week5/6.4SYN.png)
+- **SYNACK:** ![SYN-ACK Frame](../assets/week5/6.4SYNACK.png)
+- **TCP:** ![TCP Segment](../assets/week5/6.4TCP.png)
+- **Relative Sequence:** ![Relative Sequence Numbers](../assets/week5/6.4Relative.png)
 
 ---
 
@@ -159,4 +159,4 @@
 ---
 
 ## Bukti
-- **Time-Sequence-Graph:** ![UDP Request](../assets/week5/Time-Sequence-Graph.jpeg)  
+- **Time-Sequence-Graph:** ![Time-Sequence-Graph Stevens](../assets/week5/Time-Sequence-Graph.jpeg)  
