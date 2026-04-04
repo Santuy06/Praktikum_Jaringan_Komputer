@@ -130,7 +130,7 @@
 ---
 
 ## Bukti
-- **POST:** ![POST Request Frame](../assets/week5/6.4POST.png)  
+- **POST:** ![POST Request Frame](../assets/week5/6.4POST.png)
 - **SYN:** ![SYN Frame](../assets/week5/6.4SYN.png)
 - **SYNACK:** ![SYN-ACK Frame](../assets/week5/6.4SYNACK.png)
 - **TCP:** ![TCP Segment](../assets/week5/6.4TCP.png)
