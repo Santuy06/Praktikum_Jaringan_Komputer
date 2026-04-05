@@ -150,10 +150,10 @@
 ## Jawaban
 
 1. Time-Sequence-Graph (Stevens)
-- **Slow start** dimulai pada awal koneksi, ketika TCP mengirim data dengan jendela kecil dan meningkat cepat secara eksponensial. Pada grafik Stevens, hal ini tampak dari kenaikan sequence number yang tajam dalam waktu singkat.  
-- **Akhir slow start** terjadi saat TCP mencapai nilai threshold (*ssthresh*) atau mendeteksi tanda kongesti. Setelah itu, laju pertambahan sequence number tidak lagi eksponensial.  
-- **Congestion avoidance** kemudian mengambil alih, ditandai dengan kenaikan sequence number yang lebih landai dan linear karena TCP menambah ukuran jendela secara bertahap (*additive increase*).  
-- **Perbedaan dengan perilaku ideal TCP**: dalam teori, kurva slow start eksponensial sempurna lalu berganti ke linear. Namun pada trace nyata, grafik menunjukkan variasi akibat kondisi jaringan, RTT, dan implementasi TCP. Misalnya, ada paket yang dikirim back-to-back (titik menumpuk), jeda antar segmen, atau fluktuasi yang membuat kurva tidak sehalus model teoritis.
+- **Slow start** dimulai pada awal pengiriman, terlihat dari kenaikan sequence number yang cepat pada awal waktu. Pada grafik, bagian ini tampak lebih curam dibanding bagian setelahnya.  
+- **Akhir slow start** terlihat saat kemiringan grafik mulai berkurang, sekitar detik 0.5 sampai 1. Setelah titik ini, pertambahan sequence number tidak lagi secepat sebelumnya.  
+- **Congestion avoidance** mulai setelah transisi tersebut, ditandai dengan kenaikan sequence number yang lebih stabil dan cenderung linear seiring waktu.  
+- **Perbedaan dengan TCP ideal**: pada teori, kurva slow start berbentuk eksponensial yang halus lalu berubah menjadi linear. Pada grafik nyata, pola terlihat bertangga karena pengiriman paket dilakukan berurutan lalu menunggu ACK. Selain itu, terdapat jeda waktu antar segmen sehingga kurva tidak halus seperti model teoritis.
 2. Sudah 
 
 ---
