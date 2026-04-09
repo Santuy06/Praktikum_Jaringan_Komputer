@@ -120,7 +120,6 @@ HELLO WORLD
 ---
 
 ## Screenshot
-Tambahkan gambar hasil running di folder `images`
 
 Contoh:
 ```markdown
