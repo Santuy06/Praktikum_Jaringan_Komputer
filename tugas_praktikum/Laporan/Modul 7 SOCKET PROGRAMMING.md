@@ -122,10 +122,9 @@ HELLO WORLD
 ## Screenshot
 
 Contoh:
-```markdown
+
 **Output TCP** ![output](../assets/week6/TCP.png)  
 **Output UDP** ![output](../assets/week6/UDP.png) 
-```
 
 ---
 
