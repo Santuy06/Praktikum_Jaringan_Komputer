@@ -1,8 +1,8 @@
 ## Penjelasan Kode Server HTTP Sederhana (Python)
 
 
-- [`index.html`](../assets/Week7/index.html)
-- [`Webserver.py`](../assets/Week7/Webserver.py)
+- [`index.html`](../assets/week7/index.html)
+- [`Webserver.py`](../assets/week7/Webserver.py)
 
 ### 1. Import Library
 
@@ -193,4 +193,4 @@ sys.exit()
 * Tambahkan `try-except` untuk keamanan.
 * Gunakan multithreading jika ingin banyak client.
 
-**Output** ![output](../assets/Week7/image.png) 
+**Output** ![output](../assets/week7/image.png) 

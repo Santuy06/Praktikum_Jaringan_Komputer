@@ -27,9 +27,9 @@ Mengamati cara traceroute bekerja dengan TTL dan pesan ICMP TTL-exceeded.
 - Router perantara mengembalikan ICMP TTL-exceeded.  
 
 **Screenshot:**  
-- **Part 1:** ![IPv4 dasar](../assets/Week8/IPv4Part1.png)
-- **Part 2:** ![IPv4 dasar](../assets/Week8/IPv4Part2.png)
-- **Part 3:** ![IPv4 dasar](../assets/Week8/IPv4Part3.png)
+- **Part 1:** ![IPv4 dasar](../assets/week8/IPv4Part1.png)
+- **Part 2:** ![IPv4 dasar](../assets/week8/IPv4Part2.png)
+- **Part 3:** ![IPv4 dasar](../assets/week8/IPv4Part3.png)
 
 **Kesimpulan:**  
 Traceroute memanfaatkan TTL dan ICMP untuk memetakan jalur hop ke tujuan.
@@ -53,7 +53,7 @@ Menganalisis fragmentasi IP pada datagram UDP besar (±3000 byte).
 - Semua fragmen punya Identification sama.  
 
 **Screenshot:**  
-- **UDP 3000:** ![Fragmentasi UDP](../assets/Week8/UDP3000.png)
+- **UDP 3000:** ![Fragmentasi UDP](../assets/week8/UDP3000.png)
 
 **Kesimpulan:**  
 Datagram UDP besar tidak dapat dikirim sekaligus sehingga IP memecahnya menjadi beberapa fragmen. Fragmen dikenali lewat Identification, Offset, dan MF flag.
@@ -75,7 +75,7 @@ Melihat sekilas datagram IPv6 dan DNS AAAA request.
 - Alamat sumber dan tujuan berupa IPv6.  
 
 **Screenshot:**  
-- **IPv6:** ![IPv6 DNS AAAA](../assets/Week8/IPv6.png)
+- **IPv6:** ![IPv6 DNS AAAA](../assets/week8/IPv6.png)
 
 **Kesimpulan:**  
 IPv6 menggunakan DNS AAAA untuk resolusi nama ke alamat IPv6. Struktur header lebih sederhana dibanding IPv4.
