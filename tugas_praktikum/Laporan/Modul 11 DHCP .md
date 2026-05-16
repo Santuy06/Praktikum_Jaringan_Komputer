@@ -1,4 +1,3 @@
-````md
 # Modul 11 DHCP
 
 ## Tujuan Praktikum
@@ -154,6 +153,3 @@ Proses DHCP terdiri dari empat tahap utama:
 DHCP digunakan untuk memberikan alamat IP secara otomatis kepada client dalam jaringan. Dengan DHCP, konfigurasi jaringan menjadi lebih mudah dan cepat karena tidak perlu mengatur alamat IP secara manual.
 
 Berdasarkan hasil analisis pada Wireshark, proses DHCP berjalan melalui empat tahap yaitu Discover, Offer, Request, dan ACK.
-
-```
-```
